@@ -78,6 +78,7 @@ homebrew_casks:
     repository:
       owner: richardcase
       name: homebrew-tools
+      token: "${{ secrets.PAT }}"
     hooks:
       post:
         install: |
